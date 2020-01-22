@@ -175,6 +175,7 @@ string linkedList::convertMonth(int nmonth){
         if (i == nmonth)
             return monthList[i-1];
     }
+    return "ERROR: Invalid Month";
 }
 
 #endif
